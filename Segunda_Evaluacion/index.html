@@ -1,0 +1,89 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width,user-scalable=no">
+	<meta name="author" content="Alan Manuitt">
+	<meta name="keywords" content="html,css,xml,javascript">
+	<meta name="description" content="Curriculum Vitae">
+	<title>Curriculum Vitae</title>
+</head>
+<body>
+	<!--Inicio de pagina -->
+	<img src="img/logo.svg" width="150" height="150">
+	<h1><ins>Curriculum Vitae</ins></h1>
+	<h2>Nombres: Alan Simon</h2>
+	<h2>Apellidos: Manuitt Briceño</h2>
+	<h3>Fecha de Nacimiento: 09/09/1993</h3>
+	<h3>Lugar de Nacimiento: Caracas,Venezuela</h3>
+
+	<!-- Menu -->
+	<a href="index.html">Pagina Principal</a>
+	<a href="html/educacion.html">Educacion</a>
+	<a href="html/experiencia.html">Experiencia</a>
+
+	<!-- Informacion Personal -->
+	<h2>Educacion</h2>
+	<table border="1">
+		<thead>
+			<tr>
+				<th>Año</th>
+				<th>Institucion</th>
+				<th>Lugar</th>
+				<th>Culmino</th>
+			</tr>
+		</thead>
+		<tbody>
+			<tr>
+				<td>1999</td>
+				<td>Colegio Promesas Patrias</td>
+				<td>Venezuela</td>
+				<td>2010</td>
+			</tr>
+			<tr>
+				<td>2012</td>
+				<td>Universidad Nueva Esparta</td>
+				<td>Venezuela</td>
+				<td>2017</td>
+			</tr>
+		</tbody>		
+	</table>
+
+	<!-- Agregar Estudio -->
+	<h3>Agregar Estudio</h3>
+	<form id="agregar" autocomplete="on" name="Formularios">
+		<p>
+			<label for="año"><strong>Año : </strong></label>
+			<select id="año" required="true">
+				<option>2014</option>
+				<option>2015</option>
+				<option>2016</option>
+				<option>2017</option>
+			</select>
+		</p>
+		<p>
+			<label for="institucion">Institucion: </label>
+				<input type="text" name="" id="institucion" required="true" placeholder="Institucion">
+		</p>
+		<p>
+			<label for="lugar">Lugar: </label>
+				<textarea id="lugar" required="true" placeholder="Descripcion"></textarea>
+		</p>
+		<p>
+			<label for="fin">Culmino?</label>
+				<input id="Si" type="radio" name="gender" value="Si">Si
+				<input id="No" type="radio" name="gender" value="No">No
+		</p>
+		<input type="submit" name=btn"" id="btn" value="Enviar">
+	</form>
+
+	<!-- Pie de Pagina -->
+	<footer>
+		<h2>Contacto</h2>
+		<a href="mailto:alansmanuittb@gmail.com?Suject=Hello%20again">E-Mail | </a>
+		<a href="">Twitter | </a>
+		<label> Telefono: +507 6547-4821</label>
+	</footer>
+
+</body>
+</html>
